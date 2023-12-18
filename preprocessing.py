@@ -2,6 +2,13 @@ from sklearn.preprocessing import MinMaxScaler
 import pandas as pd
 
 
+def remove_duplicates(df):
+    # Remove duplicate rows
+    df_no_duplicates = df.drop_duplicates()
+
+    return df_no_duplicates
+
+
 def normalize_data(data, numerical_columns):
     # Initialize the MinMaxScaler
     scaler = MinMaxScaler()
