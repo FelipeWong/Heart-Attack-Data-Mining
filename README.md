@@ -7,7 +7,7 @@ https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-predict
 First, I have used KNN and other methods to find the data distribution, and to some data cleaning/preprocessing
 (e.g. finding duplicates, missing values, or finding outliers)
 
-I used one-hot encode for cat
+I used one-hot encode for categorical columns and normalization for numerical columns, so I can speed up and prediction
 
 Then, I use ARM to generate some association rules for understand/find relationship and pattern of the data
 
